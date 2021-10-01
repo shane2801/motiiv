@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%k$rst0$6i3^za(6n)dm*^_l_=8rh(6e-kf70)6_!ws&46fz!+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['motiiv.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['motiiv.herokuapp.com','127.0.0.1','www.motiiv.co.uk','motiiv.co.uk']
 
 
 # Application definition
