@@ -1417,17 +1417,21 @@ section {
 .contact .php-email-form {
   width: 100%;
   color: black;
+  background: transparent;
 
 }
 
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
+  background: transparent;
+  color: black;
 
 }
 
 .contact .php-email-form .validate {
   display: none;
   color: #1cebd1;
+  background: transparent;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -1457,7 +1461,6 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
   text-align: center;
   padding: 15px;
 }
@@ -1480,6 +1483,7 @@ section {
   box-shadow: none;
   font-size: 14px;
   background: transparent;
+  color: black;
 }
 
 .contact .php-email-form input {
@@ -1489,6 +1493,7 @@ section {
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
+  color: black;
 }
 
 .contact .php-email-form button[type="submit"] {
@@ -1503,6 +1508,10 @@ section {
 .contact .php-email-form button[type="submit"]:hover {
   background: #000;
   color: #fff;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
 }
 
 @-webkit-keyframes animate-loading {
