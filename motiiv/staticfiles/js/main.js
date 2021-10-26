@@ -234,3 +234,11 @@ function countDown(){
 setInterval(function(){
   countDown();
 },1000)
+
+
+function submitForm() {
+  document.getElementById('name').value='';
+  document.getElementById('email').value='';
+  document.getElementById('subject').value='';
+  document.getElementById('contact-message').value='';
+}

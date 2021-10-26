@@ -28,7 +28,7 @@ DEBUG = False
 
 EMAIL_HOST = 'smtp.zoho.com'
 EMAIL_HOST_USER = 'niaz.caan@motiiv.co.uk'
-EMAIL_HOST_PASSWORD= 'Niaz16ANM'
+EMAIL_HOST_PASSWORD= 'FFWiYJ90ArkL'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL  = False

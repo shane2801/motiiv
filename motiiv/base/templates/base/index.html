@@ -830,7 +830,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-            <form action="#" method="post" role="form" class="php-email-form">
+            <form id="contact-form" action="/" method="post" role="form" class="php-email-form">
               {% csrf_token %}
               <div class="form-row">
                 <div class="col-md-6 form-group">
@@ -847,7 +847,7 @@
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Please write something for us"></textarea>
+                <textarea class="form-control" id="contact-message" name="message" rows="5" data-rule="required" data-msg="Your message cannot be empty!" placeholder="Please write something for us"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">

@@ -30,9 +30,8 @@ def home(request):
 
         From: {}
         Name: {}
-        '''.format(data['subject'],data['message'],data['email'],data['name'])
+        '''.format(data['subject'], data['message'],data['email'],data['name'])
 
         send_mail(subject, message ,settings.EMAIL_HOST_USER,['niaz.caan@motiiv.co.uk'],fail_silently=False)
-
         return HttpResponse("Thanks for contacting us! We will do our best to get back to you as soon as we can.")
     return render(request, 'base/index.html')
