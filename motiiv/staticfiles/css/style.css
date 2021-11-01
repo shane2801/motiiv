@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Grandstander";
+  font-family: 'Poppins', sans-serif;
   color: #fff;
 }
 
@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Grandstander", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 17px;
   /* border-radius: 50px; */
-  font-family: "Grandstander", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
