@@ -594,6 +594,30 @@ section {
   content: 'Seconds';
 }
 
+@media screen and (max-width:580px){
+  .countdown{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #28464B; */
+  }
+  .countdown div{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px 0px;
+    /* padding: 10px 0px; */
+    line-height: 50px;
+  }
+
+  .countdown div:before{
+    font-size: .55em;
+    bottom: -25px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1417,7 +1441,7 @@ section {
 .contact .php-email-form {
   width: 100%;
   color: black;
-  background: transparent;
+  background: whitesmoke;
 
 }
 
